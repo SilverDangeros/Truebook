@@ -1,0 +1,67 @@
+html {
+    background: #ea91dc;
+    -webkit-font-smoothing: antialiased;
+    
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+  text-align:center;
+  font-weight: bolder;
+}
+body {
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+    
+    
+}
+ul{
+    list-style-type: disc;
+}
+mark.red {
+    color:#070606;
+    background: none;
+    font-weight: bold;
+   /* -webkit-animation-name: fade; */
+
+}
+img {
+    width:100%;
+}
+div.facebook{
+    display: inline-block;
+    width: 400px;
+    background: color:blue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+p.pop {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+div:hover p {
+    display: block;
+    display: inline-block;      
+}
+div.content{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
